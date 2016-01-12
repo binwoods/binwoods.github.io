@@ -13,6 +13,8 @@ color:
   secondary: 99ffcc
   secondary-dark: 355c7d
   title: ffffff
+  links: 000000
+  links-hover: 000066
 
 # Team names, titles and social links
 people:
