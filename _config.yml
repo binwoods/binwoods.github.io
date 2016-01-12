@@ -3,7 +3,7 @@ url: https://binwoods.github.io
 host: localhost
 
 # Site settings
-title: 
+title: 冰冰工作室
 email: miss.wbingbing@gmail.com
 description: "Design Comes From Life,Pursue Inspiration In Life"
 
@@ -15,31 +15,32 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: 王冰冰
   pic: 1
-  position: Lead Designer
+  position: 首席设计师
   social:
-    - title: twitter
+    - title: weibo
+      url: #
+    - title: linkedin
       url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
       url: #
 
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# 注:这里写工作室的账号网址，个人的已在Team里填写.
 social:
+  - title: weibo
+    url: 
+  - title: pinterest
+    url: 
   - title: linkedin
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: 
+  - title: facebook 
+    url: 
   - title: github
-    url: http://github.com/jekyll
+    url: 
 
 # Postal address (add as many lines as necessary)
 address:
