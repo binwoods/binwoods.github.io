@@ -3,9 +3,9 @@ url: https://binwoods.github.io
 host: localhost
 
 # Site settings
-title: 冰冰工作室
+title: EsanWang
 email: miss.wbingbing@gmail.com
-description: "Design Comes From Life,Pursue Inspiration In Life"
+description: "铅华是短,不堪挥霍."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -13,17 +13,14 @@ color:
   secondary: 99ffcc
   secondary-dark: 355c7d
   title: ffffff
-  links: 000000
-  links-hover: 000066
+  links: ffffff
+  links-hover: ffffff
 
 # Team names, titles and social links
 people:
-- name: 王冰冰
-  pic: 1
-  position: 首席设计师
   social:
-    - title: weibo
-      url: #
+    - title: github
+      url: https://github.com/esanwang
     - title: linkedin
       url: #
     - title: facebook
@@ -34,21 +31,19 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # 注:这里写工作室的账号网址，个人的已在Team里填写.
 social:
-  - title: weibo
+  - title: dribbble
     url: 
   - title: pinterest
     url: 
   - title: linkedin
     url: 
-  - title: facebook 
+  - title: behance 
     url: 
   - title: github
-    url: 
+    url: https://github.com/esanwang
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+
+
 
 # Build settings
 markdown: kramdown

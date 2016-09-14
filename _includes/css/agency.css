@@ -340,12 +340,11 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
-    background-position: center center;
+    position:relative;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    
     -o-background-size: cover;
 }
 
@@ -445,7 +444,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(155,222,159,.6); /* Fallback when no plugin support */
+    background: rgba(155,222,159,.4); /* Fallback when no plugin support */
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .6);
 }
 
@@ -704,8 +703,10 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     text-align: center;
+    display:block;
+    float:left;
 }
 
 .team-member img {
@@ -713,83 +714,13 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
 
-.team-member p {
-    margin-top: 0;
-}
 
+
+ul. list-inline social-buttons{padding-top:20px;}
+.text-myself{padding-left:300px;}
 aside.clients img {
     margin: 50px auto;
-}
-
-section#contact {
-    background-color: #222;
-    background-image: url(img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #{{ site.color.primary }};
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
 }
 
 footer {
