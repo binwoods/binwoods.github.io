@@ -3,7 +3,7 @@ url: https://binwoods.github.io
 host: localhost
 
 # Site settings
-title: EsanWang
+title: 
 email: miss.wbingbing@gmail.com
 description: "铅华是短,不堪挥霍."
 
@@ -12,9 +12,9 @@ color:
   primary: c1f5c4
   secondary: 99ffcc
   secondary-dark: 355c7d
-  title: ffffff
-  links: ffffff
-  links-hover: ffffff
+  title: 355c7d
+  links: 355c7d
+  links-hover: 355c7d
 
 # Team names, titles and social links
 people:
@@ -22,7 +22,7 @@ people:
     - title: github
       url: https://github.com/esanwang
     - title: linkedin
-      url: #
+      url: http://www.linkedin.com/in/bingbing-wang-59a246b7?trk=nav_responsive_tab_profile_pic
     - title: facebook
       url: #
 
@@ -36,7 +36,7 @@ social:
   - title: pinterest
     url: 
   - title: linkedin
-    url: 
+    url: http://www.linkedin.com/in/bingbing-wang-59a246b7?trk=nav_responsive_tab_profile_pic
   - title: behance 
     url: 
   - title: github
