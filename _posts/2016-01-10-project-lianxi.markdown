@@ -1,5 +1,5 @@
 ---
-title: lianxi
+title: 一组临摹的icon
 subtitle:
 layout: default
 modal-id: lianxi
@@ -7,8 +7,5 @@ date: 20160110
 img: lianxi.jpg
 thumbnail: lianxi01.jpg
 alt: image-alt
-project-date: Jan 2016
-client: Start Bootstrap
-category: Web Development
-description: 临摹
+description: 这是好久之前自己临摹的图，一直很喜欢这几个，所以就分享给大家了。
 ---
